@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.chubby.morearrows.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "morearrows.refmap.json",
+  "mixins": [
+    "WolfVarMixins"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
